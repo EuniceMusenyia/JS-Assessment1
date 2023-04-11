@@ -74,19 +74,21 @@ function yearsArray (years){
 // “Buzz” if the numbers are divisible by 5, 
 // and “FizzBuzz” if divisible by both 3 and 5.
 function numberArray(numbers) {
-    while (0 to 100) {
+    while (0,100) {
         
     }
-    if (numbers/3===0) {
-        return numbers
+    if (numbers/3===0 && numbers / 5 ===0) {
+        return "FizzBuzz"
         
     }
-    if else( numbers/5===0){
-        return
+    if else( numbers/3===0){
+        return "fizz"
     }
-    else
-    return
+     else( numbers/5===0){
+
+    return 
     
+}
 }
 
 // 5. Write a function that takes in an array of numbers and 
@@ -94,6 +96,7 @@ function numberArray(numbers) {
 // elements multiplied by 4.
 
 function multiplication (num){
+
     let i =0;
 let multiply =1
 while (i<num.length) {
@@ -104,14 +107,14 @@ while (i<num.length) {
 console.log({multiply});
 }
 multiplication(num);
-// let num = [ 12, 3, 6, 17, 8, 10]
-// console.log({multiply});
-
-
-
 
 
 // 6. Write a function that takes in an array of strings and 
 // returns an array with every element
 // turned into a number
 // let nums = [“10”,”24”,”45”,”56”,”67”]
+function strArr(nums) {
+    let nums = [“10”,”24”,”45”,”56”,”67”]
+
+    
+}
